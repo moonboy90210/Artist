@@ -65,16 +65,54 @@ img {
 	text-align: center;
 	margin-top: 40px;
 }
+#typing-text {
+  font-family: 'Contrail One', monospace;
+  font-size: 23px;
+  color: black;
+  /* background-color: #000; */
+  /* padding: 20px; */
+  /* border-radius: 10px; */
+  /* width: 80%; */
+  margin: 0 auto;
+}
+.fade-left,
+.fade-right,
+.fade-up,
+.fade-down {
+  opacity: 0;
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-left {
+  transform: translateX(-50px);
+}
+.fade-right {
+  transform: translateX(50px);
+}
+.fade-up {
+  transform: translateY(50px);
+}
+.fade-down {
+  transform: translateY(-50px);
+}
+
+.fade-left.in-view,
+.fade-right.in-view,
+.fade-up.in-view,
+.fade-down.in-view {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
 
 .cont1 {
-	background-image: url(../img/notebook2.png);
+	background: white;
 	background-size: 100% 100%;
-	background-attachment: fixed;
+	border-radius: 40px;
+	/* background-attachment:fixed; */
 	background-repeat: no-repeat;
 	color: black;
 	/* background-position: center; */
-	/* background-size: 100%; */
-	/* background-repeat: no-repeat; */
 	/* object-fit:cover; */
 }
 
@@ -127,9 +165,10 @@ a :hover {
 }
 
 @media screen and (min-width: 912px) {
-	p.infotxt {
-		font-size: 1.1rem;
-		margin-left: 30px;
+	#typing-text {
+		font-size: 1.8rem;
+		margin-left: 90px;
+		margin: 35px 0 0 80px;
 		/* color: blue; */
 	}
 }

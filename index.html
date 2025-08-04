@@ -9,6 +9,8 @@
 	<link rel="stylesheet" href="artist.css">
 	<script src="https://kit.fontawesome.com/0f977cd8f2.js" crossorigin="anonymous"></script>
 	<title>TAZII - The artist</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 	<link rel="icon" type="image/x-icon" href="../img/RTB.png" sizes="200x200">
 </head>
 
@@ -44,19 +46,15 @@
 		</nav>
 		<section id="info">
 			<div class="container">
-				<div class="row cont1">
-					<div class="col-md-6">
-						<p class="infotxt">
-							<strong>TAZII</strong> is a budding Trap artiste born and raised in Nigeria. He discovered his flare for rap while freestyling with the guys back in UNI.
-							Now, he's developed his sound and came into the scene with his debut single "Bando Basic" which has received much critical acclaim.
-							While Hip-Hop/Rap is his main MO, he has delved into different genres and successfully fused his "trap boy vibe" in the mix to deliver outstanding records.
-							As he evolves, you get to see the diverse catalogue this talent has to offer.
-						</p>
+				<div class="row cont1 fade-right">
+					<div class="col-md-6 col-lg-6 p-4">
+						<p class="infotx" id="typing-text" style="white-space: pre-line;">
+							</p>
 
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 col-lg-6">
 
-						<img src="/img/newwwww.png" style="width: 100%;" class="zili" alt="TAZII - The Artist">
+						<img src="/img/newwwww.png" style="width: 100%; --animate-duration: 2s;" class="zili animate__animated animate__fadeInLeft" alt="TAZII - The Artist">
 
 					</div>
 				</div>
@@ -67,7 +65,18 @@
 			<div class="container ">
 				<h2 class="p-3">MUSIC</h2>
 				<div class="row">
-					<div class="col-md-4 g-3 music">
+					<div class="col-md-4 col-lg-4 g-3 music fade-left" >
+						<div class="card border-0 bg-transparent" style="width: 100%;">
+							<img src="/img/OTP.png" class="card-img-top rounded" alt="New Milli cover art">
+							<div class="card-body">
+								<h5>OFF THE PHONE
+									(FREESTYLE)
+								</h5>
+								<a class="btn btn-outline-light" href="https://tr.ee/O7PTRAcR7X" target="_blank" role="button">GET IT HERE</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-lg-4 g-3 music fade-down">
 						<div class="card border-0 bg-transparent" style="width: 100%;">
 							<img src="/img/new milli.png" class="card-img-top rounded" alt="New Milli cover art">
 							<div class="card-body">
@@ -76,7 +85,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 g-3 music">
+					<div class="col-md-4 col-lg-4 g-3 music fade-right">
 						<div class="card border-0 bg-transparent" style="width: 100%;">
 							<img src="/img/WEIGH ART.jpg" class="card-img-top rounded" alt="Weigh art">
 							<div class="card-body">
@@ -86,7 +95,7 @@
 						</div>
 
 					</div>
-					<div class="col-md-4 g-3 music">
+					<div class="col-md-4 col-lg-4 g-3 music fade-left">
 						<div class="card border-0  bg-transparent" style="width: 100%;">
 							<img src="/img/BANDO basic.jpg" class="card-img-top rounded" alt="Bando Basic art">
 							<div class="card-body">
@@ -95,9 +104,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="d-flex justify-content-center">
-					<div class="col-md-4 g-3 music ">
+					<div class="col-md-4 col-lg-4 g-3 music fade-up">
 						<div class="card border-0 bg-transparent" style="width: 100%;">
 							<img src="/img/S&S2.PNG" class="card-img-top rounded" alt="Shuga & Spyce art">
 							<div class="card-body">
@@ -107,6 +114,7 @@
 						</div>
 					</div>
 				</div>
+			]
 
 		</section>
 		<hr>
@@ -114,19 +122,19 @@
 			<div class="container">
 				<h2 class="p-3">VIDEOS</h2>
 				<div class="row justify-content-center">
-					<div class="col-md-6 g-3">
+					<div class="col-md-6 g-3 fade-left">
 						<iframe width="100%" height="280" src="https://www.youtube.com/embed/6hOtONc6jj8?si=7ecJh0wKPbyb-FIl" title="TAZII - WEIGH (One Mic Session)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 					</div>
-					<div class="col-md-6 g-3">
+					<div class="col-md-6 g-3 fade-right">
 						<iframe width="100%" height="280" src="https://www.youtube.com/embed/HFvk29jVjNM?si=ApFpjnWH9eRj6oYq" title="TAZII - WEIGH (Visualizer)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 					</div>
-					<div class="col-md-6 g-3">
-						<iframe width="100%" height="280" src="https://www.youtube.com/embed/u0eqzsLEoqI?si=CcZ90aoT1vWpFUSh" title="TAZII - Just Another freestyle" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					<div class="col-md-6 g-3 fade-left">
+						<iframe width="100%" height="280" src="https://www.youtube.com/embed/bBUstez5w6M?si=iBfTKr_-WSJdtIl2" title="TAZII - New Milli Live Performance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 					</div>
 
 				</div>
 				<span>
-					<a class="btn btn-outline-light mt-5" href="http://www.youtube.com/@Tazii2x" role="button">WATCH MORE VIDEOS</a>
+					<a class="btn btn-outline-light mt-5 fade-right" href="http://www.youtube.com/@Tazii2x" role="button">WATCH MORE VIDEOS</a>
 				</span>
 
 			</div>
@@ -134,10 +142,10 @@
 		<hr>
 		<section id="follow">
 			<div class="container">
-				<h2 class="p-3">FOLLOW & JOIN</h2>
-				<h5>Follow TAZII on all Socials and Subcribe to get the latest News and Music Updates.</h5>
+				<h2 class="p-3 fade-left">FOLLOW & JOIN</h2>
+				<h5 class="fade-right">Follow TAZII on all Socials and Subcribe to get the latest News and Music Updates.</h5>
 				<div class="row justify-content-center">
-					<div class="col-md-6 my-4">
+					<div class="col-md-6 my-4 fade-left">
 						<form method="post">
 							<div class="input-group">
 								<input type="email" name="newSub" class="form-control" placeholder="Enter Email" aria-label="Email" aria-describedby="button-addon2" required>
@@ -147,7 +155,7 @@
 					</div>
 				</div>
 				<div class="row justify-content-center">
-					<div class="col-md-6 my-3">
+					<div class="col-md-6 my-3 fade-right">
 						<a href="http://www.instagram.com/tazii2x_" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
 						<a href="http://www.twitter.com/tazii2x" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-x-twitter fa-xl"></i></a>
 						<a href="http://www.facebook.com/tazii2x" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-facebook-f fa-xl"></i></a>
@@ -170,6 +178,45 @@
 			</div>
 		</div>
 	</footer>
+<script>
+  const elements = document.querySelectorAll(
+    '.fade-left, .fade-right, .fade-up, .fade-down'
+  );
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in-view');
+        // observer.unobserve(entry.target); // Remove this line if you want repeat animation on scroll
+      }
+    });
+  }, {
+    threshold: 0.1
+  });
+
+  elements.forEach(el => observer.observe(el));
+</script>
+
+
+
+	<script>
+  const text = `TAZII is a budding Trap artiste born and raised in Nigeria. He discovered his flare for rap while freestyling with the guys back in UNI. Now, he's developed his sound and came into the scene with his debut single "Bando Basic" which has received much critical acclaim. While Hip-Hop/Rap is his main MO, he has delved into different genres and successfully fused his "trap boy vibe" in the mix to deliver outstanding records. As he evolves, you get to see the diverse catalogue this talent has to offer.`;
+
+  const typingDiv = document.getElementById('typing-text');
+  let index = 0;
+
+  function typeWriter() {
+    if (index < text.length) {
+      typingDiv.innerHTML += text.charAt(index);
+      index++;
+      setTimeout(typeWriter, 26); // Adjust typing speed here (lower is faster)
+    }
+  }
+
+  // Start typing after the page loads
+  window.onload = typeWriter;
+</script>
+
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
