@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // ===================================
 
 function initTypingEffect() {
-    const text = `TAZII is a budding Rap/Trap artiste raised in Ota, Ogun State, Nigeria. He discovered his flare for rap while freestyling with the guys back in UNI. Now, he's developed his sound and came into the scene with his debut single "Bando Basic" which has received much critical acclaim. While Hip-Hop/Rap is his main MO, he has delved into different genres and successfully fused his "trap boy vibe" in the mix to deliver outstanding records. As he evolves, you get to see the diverse catalogue this talent has to offer.`;
+    const text = `TAZII is a budding Rap/Trap artiste raised in Ota, Ogun State, Nigeria. He discovered his flare for rap while freestyling with the guys back in UNI. Now, he's developed his sound and came into the scene with his debut single "Bando Basic" which has received much critical acclaim. While Rap is his main MO, he has delved into different genres and successfully fused his "trap boy vibe" in the mix to deliver outstanding records. As he evolves, you get to see the diverse catalogue this talent has to offer.`;
     
     const typingElement = document.getElementById('typing-text');
     if (!typingElement) return;

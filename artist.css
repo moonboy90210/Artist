@@ -118,6 +118,7 @@ a {
 
 .navbar {
     background: linear-gradient(180deg, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.7) 100%);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     padding: 1.5rem 0;
     border-bottom: 1px solid var(--color-border);
@@ -269,6 +270,7 @@ a {
     border-left: 3px solid var(--color-accent-red);
     padding: var(--spacing-md);
     margin-top: var(--spacing-md);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     animation: fadeInUp 0.8s ease 0.9s backwards;
 }
@@ -338,7 +340,7 @@ a {
 /* Scroll Indicator */
 .scroll-indicator {
     position: absolute;
-    bottom: 40px;
+    bottom: -15px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;

@@ -92,7 +92,7 @@ $image_url = '/Portfolio/img/newwwww.png'
 				</div>
 			</div>
 		</section>
-
+<hr>
 		<section id="music">
 			<div class="container ">
 				<h2 class="p-3">MUSIC</h2>
@@ -127,10 +127,10 @@ $image_url = '/Portfolio/img/newwwww.png'
 					</div>
 				</div>
 		</section>
+		<hr>
 
 		<section id="videos">
-			<div class="container">
-
+			<div class="container"> 
 				<h2 class="p-3">VIDEOS</h2>
 				<div class="row justify-content-center">
 					<div class="col-md-6 g-3">
@@ -151,7 +151,7 @@ $image_url = '/Portfolio/img/newwwww.png'
 			</div>
 		</section>
 
-
+<hr>
 		<section id="follow">
 			<div class="container">
 				<h2 class="p-3">FOLLOW & JOIN</h2>
