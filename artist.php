@@ -37,7 +37,6 @@ $image_url = '/Portfolio/img/newwwww.png'
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-	<link rel="stylesheet" href="artist.css">
 	<script src="https://kit.fontawesome.com/0f977cd8f2.js" crossorigin="anonymous"></script>
 	<title>TAZII - The artist</title>
 	<link rel="icon" type="image/x-icon" href="/Portfolio/img/RTB.png" sizes="200x200">
@@ -93,7 +92,7 @@ $image_url = '/Portfolio/img/newwwww.png'
 				</div>
 			</div>
 		</section>
-		<hr>
+
 		<section id="music">
 			<div class="container ">
 				<h2 class="p-3">MUSIC</h2>
@@ -128,7 +127,7 @@ $image_url = '/Portfolio/img/newwwww.png'
 					</div>
 				</div>
 		</section>
-		<hr>
+
 		<section id="videos">
 			<div class="container">
 
@@ -151,7 +150,8 @@ $image_url = '/Portfolio/img/newwwww.png'
 
 			</div>
 		</section>
-		<hr>
+
+
 		<section id="follow">
 			<div class="container">
 				<h2 class="p-3">FOLLOW & JOIN</h2>
@@ -194,3 +194,4 @@ $image_url = '/Portfolio/img/newwwww.png'
 </body>
 
 </html>
+
