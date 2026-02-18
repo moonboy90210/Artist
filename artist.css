@@ -259,7 +259,8 @@ a {
 
 .title-word:nth-child(2) {
     animation-delay: 0.7s;
-    background: linear-gradient(90deg, var(--color-accent-red) 0%, var(--color-accent-yellow) 100%);
+    background: linear-gradient(90deg, var(--color-accent-red) 0%, var(--color-accent-red-glow) 100%);
+    /* background: var(--color-accent-red-glow); */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -394,11 +395,11 @@ section {
     margin-bottom: var(--spacing-sm);
 }
 
-.title-number {
+/* .title-number {
     font-size: 1.5rem;
     color: var(--color-accent-red);
     opacity: 0.6;
-}
+} */
 
 .title-text {
     letter-spacing: 0.05em;
